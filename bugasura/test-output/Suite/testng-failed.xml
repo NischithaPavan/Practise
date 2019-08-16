@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="device" value="ZY322C6KX6"/>
+  <listeners>
+    <listener class-name="com.bugasura.Library.HtmlReportListener"/>
+  </listeners>
+  <test name="Regression">
+    <parameter name="device" value="ZY322C6KX6"/>
+    <classes>
+      <class name="com.bugasura.testcases.VerifyWifiEnable"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Failed suite [Suite] -->

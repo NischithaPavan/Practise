@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+<listeners>
+<listener class-name="com.bugasura.Library.HtmlReportListener" />
+</listeners>
+ <!-- <parameter name="port" value="4723"></parameter> -->
+  <test name="Regression" preserve-order="true">
+  <parameter name="device" value="ZY322C6KX6"></parameter>
+  
+    <classes>
+    <class name="com.bugasura.testcases.VerifyWifiEnable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
